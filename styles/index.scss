@@ -121,3 +121,213 @@ body {
 .fa-chevron-circle-down {
     color: $first-color;
 }
+
+.space {
+    width: 1600px;
+    height: 100px;
+}
+
+.projects {
+    width: 1600px;
+    height: 1367px;
+}
+
+.title__box {
+    width: 324px;
+    height: 84px;
+    margin-left: 638px;
+
+}
+.projects__title {
+    width: 324px;
+    height: 54px;
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 54px;
+    text-align: center;
+    color: $fourth-color;
+}
+
+.projects__box--left {
+    width: 1385px;
+    height: 527px;
+}
+
+.box--blue {
+    width: 585px;
+    height: 470px;
+    margin-top: 89px;
+    background-color: $second-color;
+}
+
+.projects__image--left {
+    width: 630px;
+    height: 470px;
+    margin-left: 215px;
+    margin-top: 146px;
+}
+
+.projects__box--info {
+    width: 470px;
+    height: 351px;
+    margin-top: -250px;
+    margin-left: 915px;
+    box-sizing: border-box;
+}
+
+.projects__info--header {
+    width: 147px;
+    height: 27px;
+    margin-bottom: 0px;
+    color: $fourth-color;
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 27px;
+}
+
+.projects__info--title {
+    width: 358px;
+    height: 54px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: $fourth-color;
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 54px;
+}
+
+.projects__info--text {
+    width: 470px;
+    height: 81px;
+    margin-top: 19px;
+    margin-bottom: 0px;
+    color: $fourth-color;
+    font-family: $tertiary-font;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px; 
+}
+
+.projects__info--button {
+    width: 190px;
+    height: 50px;
+    margin-top: 41px;
+    margin-bottom: 0px;
+    border-style: solid;
+    border-color: #000000;
+    background-color: $first-color;
+    color: #000000;
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.projects__info--location {
+    margin-top: 60px;
+    font-family: $tertiary-font;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.projects__box--right {
+    width: 1385px;
+    height: 527px;
+}
+
+.projects__box--info-right {
+    width: 476px;
+    height: 351px;
+    margin-left: 215px;
+    margin-top: 291px;
+}
+
+.projects__info--header-right {
+    width: 186px;
+    height: 27px;
+    margin-bottom: 0px;
+    color: $fourth-color;
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 27px;
+}
+
+.projects__info--title-right {
+    width: 476px;
+    height: 54px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: $fourth-color;
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 54px;
+}
+
+.projects__info--text-right {
+    width: 470px;
+    height: 81px;
+    margin-top: 19px;
+    margin-bottom: 0px;
+    color: $fourth-color;
+    font-family: $tertiary-font;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px; 
+}
+
+.projects__info--button-right {
+    width: 190px;
+    height: 50px;
+    margin-top: 41px;
+    margin-bottom: 0px;
+    border-style: solid;
+    border-color: #000000;
+    background-color: $first-color;
+    color: #000000;
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.projects__info--location-right {
+    margin-top: 60px;
+    font-family: $tertiary-font;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.projects__image--right {
+    width: 630px;
+    height: 470px;
+    margin-left: 755px;
+    margin-top: -425px;
+}
+
+.box--purple {
+    width: 585px;
+    height: 470px;
+    margin-left: 1015px;
+    margin-top: -550px;
+    background: $third-color;
+}
