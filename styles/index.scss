@@ -17,7 +17,7 @@ body {
     width: 1600px;
     height: 800px;
     background-image: url(../images/header-background.png);
-    background: linear-gradient(180deg, rgba(126, 90, 255,), rgba(85, 183, 255,));
+    background: linear-gradient(225deg, #7E5AFF 16.9%, #55B7FF 83.27%);
     box-sizing: border-box;
 }
 
@@ -550,7 +550,6 @@ body {
 }
 
 .contact__title {
-    padding-top: 60px;
     width: 332px;
     height: 54px;
     font-family: $secondary-font;
@@ -565,7 +564,7 @@ body {
 .contact__info {
     width: 286px;
     height: 196px;
-    margin-top: 20px;
+    margin-top: 90px;
     list-style: none;
 }
 
@@ -621,4 +620,78 @@ body {
 }
 
 .form__name {
+    width: 310px;
+    height: 41px;
+    margin-top: -150px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.form__email {
+    width: 310px;
+    height: 41px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.form__button {
+    width: 140px;
+    height: 50px;
+    margin-left: 80px;
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    border-style: solid;
+    border-color: #000000;
+    background-color: $first-color;
+    color: #000000;
+}
+
+.footer {
+    width: 1600px;
+    height: 549px;
+    background-image: linear-gradient(225deg, #7E5AFF -2.19%, #55B7FF 103.21%), url(../images/footer-background.png);
+}
+
+.footer__box {
+    width: 241px;
+    height: 112px;
+    margin-left: 415px;
+}
+
+.footer__logo {
+    width: 241px;
+    height: 54px;
+    margin-top: 204px;
+}
+
+.footer__copyright {
+    width: 216px;
+    height: 17px;
+    padding-top: 40px;
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.footer__socials {
+    width: 160px;
+    height: 40px;
+    margin-left: 1025px;
+    margin-top: 100px;
+    list-style: none;
+    text-decoration: none;
+    color: $first-color;
+    display: flex;
 }
