@@ -25,6 +25,7 @@ body {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 14px;
   font-weight: normal;
+  color: #FFFFFF;
 }
 
 .fa-circle {
@@ -35,6 +36,20 @@ body {
 }
 
 .fa-circle:hover {
+  font-weight: bold;
+}
+
+a:link {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+a:hover {
   font-weight: bold;
 }
 
@@ -523,6 +538,10 @@ body {
   line-height: 17px;
 }
 
+.gallery__button:hover {
+  font-weight: bold;
+}
+
 .contact {
   width: 1600px;
   height: 850px;
@@ -650,6 +669,10 @@ body {
   border-color: #000000;
   background-color: #FFFFFF;
   color: #000000;
+}
+
+.form__button:hover {
+  font-weight: bold;
 }
 
 .footer {

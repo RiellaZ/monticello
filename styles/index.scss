@@ -34,6 +34,7 @@ body {
     font-family: $primary-font;
     font-size: 14px;
     font-weight: normal;
+    color: $first-color;
 }
 
 .fa-circle {
@@ -44,6 +45,20 @@ body {
 }
 
 .fa-circle:hover {
+    font-weight: bold;
+}
+
+a:link {
+    text-decoration: none;
+    color: $first-color;
+}
+
+a:visited {
+    text-decoration: none;
+    color: $first-color;
+}
+
+a:hover {
     font-weight: bold;
 }
 
@@ -530,6 +545,9 @@ body {
     line-height: 17px;
 }
 
+.gallery__button:hover {
+    font-weight: bold;
+}
 .contact {
     width: 1600px;
     height: 850px;
@@ -653,6 +671,10 @@ body {
     border-color: #000000;
     background-color: $first-color;
     color: #000000;
+}
+
+.form__button:hover {
+    font-weight: bold;
 }
 
 .footer {
