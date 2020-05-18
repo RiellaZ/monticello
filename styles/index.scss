@@ -16,8 +16,10 @@ body {
 .header {
     width: 1600px;
     height: 800px;
-    background-image: url(../images/header-background.png);
-    background: linear-gradient(225deg, #7E5AFF 16.9%, #55B7FF 83.27%);
+    background-image: url(../images/header-background.png),
+    linear-gradient(225deg, #7E5AFF 16.9%, #55B7FF 83.27%);
+    background-repeat: no-repeat;
+    background-size: cover;
     box-sizing: border-box;
 }
 
@@ -91,7 +93,7 @@ a:hover {
     padding-right: 35px;
 }
 
-.header__title {
+.header__container {
     width: 930px;
     height: 98px;
     margin-top: 300px;
@@ -119,6 +121,10 @@ a:hover {
     font-weight: normal;
     font-size: 18px;
     letter-spacing: 0.3em;
+    color: $first-color;
+}
+
+.slick-dots {
     color: $first-color;
 }
 
@@ -362,7 +368,8 @@ a:hover {
 .news {
     width: 1600px;
     height: 1035px;
-    background: linear-gradient(225deg, #24CCFA 11.16%, #3C7FD4 89.18%);
+    background-image: url(../images/news-background.png),
+     linear-gradient(225deg, #24CCFA 11.16%, #3C7FD4 89.18%);
 }
 
 .news__box {
@@ -680,7 +687,8 @@ a:hover {
 .footer {
     width: 1600px;
     height: 549px;
-    background-image: linear-gradient(225deg, #7E5AFF -2.19%, #55B7FF 103.21%), url(../images/footer-background.png);
+    background-image: url(../images/footer-background.png),
+     linear-gradient(225deg, #7E5AFF -2.19%, #55B7FF 103.21%), url(../images/footer-background.png);
 }
 
 .footer__box {
