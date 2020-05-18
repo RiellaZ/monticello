@@ -158,6 +158,13 @@ a:hover {
     margin-left: 638px;
 
 }
+
+.projects__line {
+    text-align: center;
+    width: 100px;
+    border: 1px solid $fourth-color;
+}
+
 .projects__title {
     width: 324px;
     height: 54px;
@@ -378,10 +385,16 @@ a:hover {
     margin-left: 636px;
 }
 
+.news__line {
+    text-align: center;
+    width: 100px;
+    border: 1px solid $first-color;
+    margin-top: 100px;
+}
+
 .news__heading {
     width: 327px;
     height: 54px;
-    padding-top: 165px;
     font-family: $secondary-font;
     font-style: normal;
     font-weight: bold;
@@ -492,9 +505,15 @@ a:hover {
     margin-left: 479px;
 }
 
+.gallery__line {
+    text-align: center;
+    width: 100px;
+    border: 1px solid $fourth-color;
+}
 .gallery__title {
     width: 212px;
     height: 54px;
+    margin-bottom: 89px;
     font-family: $secondary-font;
     font-style: normal;
     font-weight: bold;
@@ -515,9 +534,33 @@ a:hover {
     grid-row: 1/3;
 }
 
+.house1 {
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.house1:hover {
+    -webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
 .gallery__grid--house2 {
     grid-column: 3/4;
     grid-row: 1/2;
+}
+
+.house2 {
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.house2:hover {
+    -webkit-transform: scale(1.3);
+	transform: scale(1.3);
 }
 
 .gallery__grid--house3 {
@@ -525,14 +568,50 @@ a:hover {
     grid-row: 1/2;
 }
 
+.house3 {
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.house3:hover {
+    -webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
 .gallery__grid--house4 {
     grid-column: 3/4;
     grid-row: 2/3;
 }
 
+.house4 {
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.house4:hover {
+    -webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
 .gallery__grid--house5 {
     grid-column: 4/5;
     grid-row: 2/3;
+}
+
+.house5 {
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.house5:hover {
+    -webkit-transform: scale(1.3);
+	transform: scale(1.3);
 }
 
 .gallery__button {
@@ -574,6 +653,11 @@ a:hover {
     margin-left: 219px;
 }
 
+.contact__line {
+    text-align: center;
+    width: 100px;
+    border: 1px solid $fourth-color;
+}
 .contact__title {
     width: 332px;
     height: 54px;
