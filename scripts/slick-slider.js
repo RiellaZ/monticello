@@ -1,4 +1,6 @@
 /*$(document).ready(function() {
-    $('.header__slick-slider').slick();
-});
-*/
+    $('.slick__content').slick();
+});*/
+
+
+$('.slick__container').slick();

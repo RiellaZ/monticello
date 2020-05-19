@@ -93,6 +93,10 @@ a:hover {
     padding-right: 35px;
 }
 
+.slick__container {
+    width: 950px;
+}
+
 .header__container {
     width: 930px;
     height: 98px;
@@ -121,10 +125,6 @@ a:hover {
     font-weight: normal;
     font-size: 18px;
     letter-spacing: 0.3em;
-    color: $first-color;
-}
-
-.slick-dots {
     color: $first-color;
 }
 
