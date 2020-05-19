@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&family=Source+Sans+Pro&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
@@ -23,10 +22,10 @@
                     <div>
                         <nav class="header__nav">
                             <ul class="header__list">
-                                <li class="header__list"><a href=#about><i class="far fa-circle"></i>About Us</li></a>
-                                <li class="header__list"><a href=#projects><i class="far fa-circle"></i>Projects</li></a>
-                                <li class="header__list"><a href=#news><i class="far fa-circle"></i>News</li></a>
-                                <li class="header__list"><a href=#contact><i class="far fa-circle"></i>Contact</li></a>
+                                <li class="header__list"><a href=#about id="bold"><i class="far fa-circle"></i>About Us</li></a>
+                                <li class="header__list"><a href=#projects id="bold"><i class="far fa-circle"></i>Projects</li></a>
+                                <li class="header__list"><a href=#news id="bold"><i class="far fa-circle"></i>News</li></a>
+                                <li class="header__list"><a href=#contact id="bold"><i class="far fa-circle"></i>Contact</li></a>
                             </ul>
                         </nav>
                     </div>
@@ -75,7 +74,9 @@
             </div>
 
             <div>
-                <button class="header__button"><i class="fas fa-chevron-down"></i></button>
+                <button class="header__button" id="smooth">
+                    <a href="#projects"><i class="fas fa-chevron-down"></i></a>
+                </button>
             </div>
         </section>
     </header>
@@ -236,5 +237,6 @@
     </footer>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script type="text/javascript" src="slick/slick.min.js"></script>
+<script src="scripts/script.js"></script>
 </body>
 </html>

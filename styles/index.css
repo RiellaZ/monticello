@@ -36,10 +36,9 @@ body {
   padding-right: 14px;
 }
 
-.fa-circle:hover {
-  font-weight: bold;
-}
-
+/*.fa-circle:hover {
+    font-weight: bold;
+}*/
 a:link {
   text-decoration: none;
   color: #FFFFFF;
