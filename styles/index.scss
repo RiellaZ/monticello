@@ -46,10 +46,6 @@ body {
     padding-right: 14px;
 }
 
-/*.fa-circle:hover {
-    font-weight: bold;
-}*/
-
 a:link {
     text-decoration: none;
     color: $first-color;
@@ -81,6 +77,7 @@ a:hover {
     color: $first-color;
     display: flex;
 }
+
 .fa-facebook-f {
    padding-right: 35px;
 }
@@ -95,12 +92,10 @@ a:hover {
 
 .slick__container {
     width: 950px;
+    margin-left: 314px;
 }
 
 .header__container {
-    width: 930px;
-    height: 98px;
-    margin-top: 300px;
     margin-left: 341px;
 }
 
@@ -111,12 +106,6 @@ a:hover {
     font-size: 80px;
     letter-spacing: 0.1em;
     color: $first-color;
-}
-
-.header__text {
-    width: 620px;
-    height: 22px;
-    margin-left: 493px;
 }
 
 .header__text--style {
@@ -156,7 +145,6 @@ a:hover {
     width: 324px;
     height: 84px;
     margin-left: 638px;
-
 }
 
 .projects__line {
@@ -403,19 +391,18 @@ a:hover {
     text-align: center;
 }
 
+.news__slickslider {
+ width: 1170px;
+ height: 514px;
+ margin-left: 215px;
+}
+
 .cards {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
 
-.news__button {
-    width: 40px;
-    height: 40px;
-    background-color: transparent;
-    border-style: none;
-    margin-top: 545px;
-}
 .fa-chevron-left {
     color: $first-color;
 }
@@ -510,6 +497,7 @@ a:hover {
     width: 100px;
     border: 1px solid $fourth-color;
 }
+
 .gallery__title {
     width: 212px;
     height: 54px;
@@ -634,17 +622,35 @@ a:hover {
 .gallery__button:hover {
     font-weight: bold;
 }
+
+
 .contact {
     width: 1600px;
     height: 850px;
+    margin-top: 139px;
+    position: relative;
+}
+
+.contact__map {
+    width: 1600px;
+    height: 700px;
+    margin-top: 139px;
+    position: absolute;
+}
+
+#map {
+    width: 1600px;
+    height: 700px;
 }
 
 .contact__box {
     width: 770px;
     height: 450px;
     margin-left: 415px;
-    background-color: $second-color;
+    margin-top: 400px;
+    border: 1px solid;
     box-sizing: border-box;
+    position: absolute;
 }
 
 .contact__title--box {
@@ -658,6 +664,7 @@ a:hover {
     width: 100px;
     border: 1px solid $fourth-color;
 }
+
 .contact__title {
     width: 332px;
     height: 54px;
@@ -788,7 +795,7 @@ a:hover {
 }
 
 .footer__copyright {
-    width: 216px;
+    width: 241px;
     height: 17px;
     padding-top: 40px;
     font-family: $secondary-font;
@@ -802,7 +809,7 @@ a:hover {
 .footer__socials {
     width: 160px;
     height: 40px;
-    margin-left: 1025px;
+    margin-left: 369px;
     margin-top: 100px;
     list-style: none;
     text-decoration: none;
