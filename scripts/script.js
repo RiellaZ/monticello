@@ -17,4 +17,12 @@ $(document).ready(function(){
     });
   });
 
-  
+  const email = document.getElementById("email");
+
+email.addEventListener("input", function (event) {
+  if (email.validity.typeMismatch) {
+    email.setCustomValidity("Enter email adress");
+  } else {
+    email.setCustomValidity("");
+  }
+});
